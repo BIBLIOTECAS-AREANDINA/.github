@@ -1,0 +1,83 @@
+{
+  "org": "BIBLIOTECAS-AREANDINA",
+  "nombre": "Bibliotecas Areandina",
+  "institucion": "Fundación Universitaria del Área Andina",
+  "resumen": "Espacio institucional de código, guías y documentación de proyectos tecnológicos de las Bibliotecas de la Fundación Universitaria del Área Andina.",
+  "descripcionCorta": "Bibliotecas de la Fundación Universitaria del Área Andina: biblioteca digital, innovación (BiblioNova), repositorio Digitk y herramientas abiertas.",
+  "lemaBanner": "Biblioteca digital · Innovación · BiblioNova · Repositorio Digitk",
+  "ubicacion": "Colombia",
+  "correo": "bibliotecasareandina@areandina.edu.co",
+  "paginasBase": "https://bibliotecas-areandina.github.io",
+  "enlaces": {
+    "bidig": "https://bidig.areandina.edu.co/",
+    "colaboradores": "https://bidig.areandina.edu.co/main-home/quienes-somos-2/colaboradores-rework/",
+    "digitk": "https://digitk.areandina.edu.co/",
+    "biblionova": "https://bibliotecas-areandina.github.io/BIBLIONOVA/"
+  },
+  "colores": { "verde": "5D9A1F", "fucsia": "D4196B", "vino": "9E1350" },
+  "redes": [
+    { "nombre": "Facebook", "url": "https://www.facebook.com/BibliotecasAreandina/" },
+    { "nombre": "Instagram", "url": "https://www.instagram.com/bibliotecas_areandina/" },
+    { "nombre": "YouTube", "url": "https://www.youtube.com/@bibliotecasareandina2251" },
+    { "nombre": "TikTok", "url": "https://www.tiktok.com/@bibliotecas_areandina3" }
+  ],
+  "bidigPaginas": [
+    { "id": "bidig-home", "ruta": "/", "titulo": "Home" },
+    { "id": "bidig-intelectus", "ruta": "/main-home/asistentes-de-ia/", "titulo": "Intelectus · asistentes de IA" },
+    { "id": "bidig-biblioclick", "ruta": "/main-home/inicio-todas-las-facultades-micro-facultades/", "titulo": "BiblioClick · por facultad" },
+    { "id": "bidig-cinar", "ruta": "/main-home/cinar-rework-copy-nueva-version/", "titulo": "CINAR" },
+    { "id": "bidig-servicios", "ruta": "/main-home/servicios/servicios-basicos/", "titulo": "Servicios básicos" }
+  ],
+  "descripcionBiblioteca": "Un solo punto de entrada para buscar en el catálogo, el repositorio, las revistas y las bases de datos, con accesos a Intelectus (asistentes de IA), BiblioClick, CINAR, reserva de espacios y experiencias de aprendizaje.",
+  "descripcionTablero": "El tablero que se presentó en CIBIC 2026 y se sigue usando en presentaciones sobre BiblioNova. Organiza las iniciativas en tres pilares: experiencia al usuario, gestión institucional y academia.",
+  "mapa": [
+    { "acceso": "Intelectus (asistentes de IA)", "repos": ["aulas-inteligentes-gems", "chatbot"] },
+    { "acceso": "Repositorio (Digitk)", "repos": ["digitk-cargue-repositorio", "Digitek_sistema_repositorio"] },
+    { "acceso": "CINAR e indicadores", "repos": ["BibliometriX", "Generador-ndice-H", "AnalisisCuant"] },
+    { "acceso": "Acuerdos interbibliotecarios", "repos": ["reunir-ill-system"] },
+    { "acceso": "Alfabetización informacional", "repos": ["Ruta-informacional-", "Seleciones-con-sentido"] }
+  ],
+  "proyectos": [
+    { "repo": "BIBLIONOVA", "titulo": "BiblioNova (tablero)", "pages": true, "estado": "Tablero de {iniciativas} iniciativas ({proyectos} en desarrollo) y vínculo documental con CIBIC 2026; no identifica una VM CIBIC.", "topics": ["areandina", "github-pages"] },
+    { "repo": "Generador-ndice-H", "titulo": "Generador de índice H", "pages": true, "descripcion": "Calculadora de índice h, g e i10 desde Excel/CSV, 100% en el navegador.", "estado": "HTML/JS; Excel/CSV, índice h/g/i10; SheetJS y Chart.js por CDN. Validación con datos ficticios pendiente.", "topics": ["bibliometrics", "h-index", "javascript", "areandina"] },
+    { "repo": "BibliometriX", "titulo": "BibliometriX", "pages": true, "estado": "HTML/JS; Scopus/WoS y Chart.js; workflow Jekyll existente. Validación de indicadores pendiente.", "topics": ["areandina"] },
+    { "repo": "AnalisisCuant", "titulo": "AnalisisCuant", "pages": true, "estado": "HTML/JS; estadísticas y Chart.js. Revisar aproximaciones antes de uso académico formal.", "topics": ["areandina"] },
+    { "repo": "digitk-cargue-repositorio", "titulo": "Digitk · cargue", "pages": false, "estado": "Plantilla Apps Script con formulario y procesador; configuración productiva externa.", "topics": ["areandina"] },
+    { "repo": "Digitek_sistema_repositorio", "titulo": "Digitk (variantes)", "pages": true, "descripcion": "Variantes v1/v2 del sistema de cargue al repositorio Digitk (Apps Script).", "estado": "Variantes v1/v2 Apps Script de Digitk; comparar con digitk-cargue-repositorio antes de consolidar.", "topics": ["google-apps-script", "institutional-repository", "areandina", "digitk"] },
+    { "repo": "reunir-ill-system", "titulo": "Préstamo interbibliotecario", "pages": true, "descripcion": "Sistema de préstamo interbibliotecario en Apps Script con presentación web.", "estado": "Apps Script para préstamo interbibliotecario y presentación web; producción declarada en README, no probada aquí.", "topics": ["google-apps-script", "interlibrary-loan", "bibliotecas", "areandina"] },
+    { "repo": "Ruta-informacional-", "titulo": "Ruta informacional", "pages": true, "estado": "Guía de ciencia abierta; HTML/JS, QRCode.js y recursos externos.", "topics": ["ciencia-abierta", "alfabetizacion-informacional", "areandina", "github-pages"] },
+    { "repo": "aulas-inteligentes-gems", "titulo": "Aulas inteligentes (Gems)", "pages": true, "estado": "Instrucciones de 8 Gems y taller Areandina; no acredita creación o acceso a esos Gems.", "topics": ["gemini-ai", "educacion", "areandina", "github-pages"] },
+    { "repo": "chatbot", "titulo": "Librín (solo frontend)", "pages": true, "descripcion": "Librín: chatbot de la biblioteca digital Areandina (Express, Groq, n8n). Pages muestra solo el frontend.", "estado": "Librín: Express, Groq y n8n local; Pages no ejecuta el backend. Pruebas de servicio pendientes.", "topics": ["areandina"] },
+    { "repo": "Seleciones-con-sentido", "titulo": "Selecciones con sentido", "pages": false, "descripcion": "Sistema de solicitudes bibliográficas en Apps Script y Google Sheets, versión sanitizada y replicable.", "estado": "Apps Script y panel bibliográfico sanitizados; falta vista Index según README. No desplegable completo todavía.", "topics": ["google-apps-script", "bibliotecas", "areandina", "open-source"] }
+  ],
+  "sinPagesNota": "Sin Pages por diseño: `digitk-cargue-repositorio` y `Seleciones-con-sentido` son proyectos de Apps Script, y `koha-laboratorio` es privado.",
+  "puntoEntrada": [
+    { "texto": "BiblioNova: tablero y documentación", "url": "https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA" },
+    { "texto": "Tablero web", "url": "https://bibliotecas-areandina.github.io/BIBLIONOVA/" },
+    { "texto": "Inventario y bitácora de centralización", "url": "https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA/blob/main/docs/CENTRALIZACION_2026-11-13.md" }
+  ],
+  "equipo": [
+    { "nombre": "Andrea Pumarejo", "rol": "Coordinadora" },
+    { "nombre": "Rosa Fermina", "rol": "Subdirectora de Bibliotecas Areandina" },
+    { "nombre": "Cristian Cardenas", "rol": "Auxiliar" },
+    { "nombre": "William Saboya", "rol": "Analista" },
+    { "nombre": "Alejandro Labrada", "rol": "Analista" },
+    { "nombre": "Manuela Londoño", "rol": "Auxiliar de Biblioteca · Pereira" },
+    { "nombre": "Miguel Fernando Romero", "rol": "Auxiliar de Biblioteca · Bogotá" }
+  ],
+  "colaborar": [
+    "Revisar el README y las instrucciones del proyecto antes de editar. Registrar objetivo, alcance y evidencia.",
+    "Coordinar tareas en el plan institucional Innovación, depósito BIBLIONOVA; revisar lo existente para evitar duplicados.",
+    "Proponer cambios mediante ramas y pull requests, conservando autoría, licencias y decisiones humanas.",
+    "Verificar enlaces, dependencias y funcionamiento con datos ficticios antes de cerrar una tarea. Un HTTP 200 no acredita una prueba funcional completa.",
+    "Mantener credenciales, datos operativos, imágenes de VM, bases y respaldos fuera de repositorios públicos. Documentar su ubicación institucional y recuperación en los espacios con acceso adecuado.",
+    "No modificar Koha de producción como parte de pruebas o documentación. Coordinar cualquier trabajo de laboratorio con el responsable activo."
+  ],
+  "notaColaborar": "La documentación diferencia resultados comprobados, antecedentes y pendientes. Las responsabilidades deben resolverse con identidades verificadas; no se deducen cargos ni usuarios por similitud de nombres.",
+  "alianzas": [
+    { "nombre": "ASOUNIESCA", "imagen": "sello-asouniesca.png" },
+    { "nombre": "KIWA", "imagen": "sello-kiwa.png" },
+    { "nombre": "FAO AGRIS", "imagen": "sello-agris.png" },
+    { "nombre": "SENA", "imagen": "sello-sena.png" }
+  ]
+}

@@ -4,17 +4,13 @@ import { chromium } from 'playwright';
 import { mkdirSync, writeFileSync, readFileSync } from 'node:fs';
 
 const OUT = 'profile/assets/capturas';
-const BIDIG = 'https://bidig.areandina.edu.co';
-const NOVA = 'https://bibliotecas-areandina.github.io/BIBLIONOVA/';
+const datos = JSON.parse(readFileSync('datos/centro.json', 'utf8'));
+const BIDIG = datos.enlaces.bidig.replace(/\/$/, '');
+const NOVA = datos.enlaces.biblionova;
+const { verde, fucsia, vino } = datos.colores;
 mkdirSync(OUT, { recursive: true });
 
-const paginasBidig = [
-  ['bidig-home', '/'],
-  ['bidig-intelectus', '/main-home/asistentes-de-ia/'],
-  ['bidig-biblioclick', '/main-home/inicio-todas-las-facultades-micro-facultades/'],
-  ['bidig-cinar', '/main-home/cinar-rework-copy-nueva-version/'],
-  ['bidig-servicios', '/main-home/servicios/servicios-basicos/'],
-];
+const paginasBidig = datos.bidigPaginas.map((p) => [p.id, p.ruta]);
 const secciones = [['biblionova-experiencia', '#pilar1'], ['biblionova-gestion', '#pilar2'], ['biblionova-academia', '#pilar3'], ['biblionova-equipo', '#equipo']];
 
 const browser = await chromium.launch();
@@ -74,12 +70,12 @@ await nova.close();
 // Banner (cifras tomadas del tablero; si falla, se omiten)
 const [pilares, iniciativas, proyectos, usuarios] = cifras;
 const stat = (v, t) => (v ? `<div class="s"><b>${v}</b><span>${t}</span></div>` : '');
-const html = `<html><body style="margin:0"><div style="width:1280px;height:320px;box-sizing:border-box;padding:48px 64px;font-family:Poppins,'Segoe UI',Arial,sans-serif;color:#fff;background:linear-gradient(120deg,#5D9A1F 0%,#7FB536 38%,#D4196B 78%,#9E1350 100%);position:relative;overflow:hidden">
+const html = `<html><body style="margin:0"><div style="width:1280px;height:320px;box-sizing:border-box;padding:48px 64px;font-family:Poppins,'Segoe UI',Arial,sans-serif;color:#fff;background:linear-gradient(120deg,#${verde} 0%,#7FB536 38%,#${fucsia} 78%,#${vino} 100%);position:relative;overflow:hidden">
 <div style="position:absolute;right:-80px;top:-80px;width:340px;height:340px;border-radius:50%;background:rgba(255,255,255,.12)"></div>
 <div style="position:absolute;right:140px;bottom:-120px;width:260px;height:260px;border-radius:50%;background:rgba(255,255,255,.10)"></div>
-<div style="font-size:15px;letter-spacing:3px;text-transform:uppercase;opacity:.9">Fundación Universitaria del Área Andina</div>
-<div style="font-size:54px;font-weight:700;margin:6px 0 4px">Bibliotecas Areandina</div>
-<div style="font-size:20px;opacity:.95;max-width:760px">Biblioteca digital · Innovación · BiblioNova · Repositorio Digitk</div>
+<div style="font-size:15px;letter-spacing:3px;text-transform:uppercase;opacity:.9">${datos.institucion}</div>
+<div style="font-size:54px;font-weight:700;margin:6px 0 4px">${datos.nombre}</div>
+<div style="font-size:20px;opacity:.95;max-width:760px">${datos.lemaBanner}</div>
 <div style="display:flex;gap:36px;margin-top:34px">
 ${stat(iniciativas, 'iniciativas')}${stat(proyectos, 'proyectos en desarrollo')}${stat(pilares, 'pilares')}${stat(usuarios, 'usuarios en experiencias de aprendizaje')}
 </div></div>
@@ -99,6 +95,10 @@ await av.screenshot({ path: "profile/assets/avatar-organizacion.png" });
 await av.close();
 
 resultado.cifras = cifras;
+// Cifras para el resto de la documentación (npm run generar las usa)
+if (cifras.length === 4) {
+  writeFileSync('datos/cifras.json', JSON.stringify({ pilares, iniciativas, proyectos, usuarios, actualizado: resultado.generado }, null, 2) + '\n');
+}
 writeFileSync(`${OUT}/ultima-actualizacion.json`, JSON.stringify(resultado, null, 2));
 await browser.close();
 console.log(JSON.stringify(resultado, null, 2));
