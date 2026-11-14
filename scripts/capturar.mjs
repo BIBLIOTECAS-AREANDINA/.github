@@ -52,12 +52,20 @@ try {
   await nova.waitForTimeout(3500); // contadores animados
   cifras = await nova.$$eval('#bnSummary b', (n) => n.map((x) => x.textContent.trim()));
   await nova.screenshot({ path: `${OUT}/biblionova-tablero.png` });
+  // Oculta la barra fija y la de progreso para que no tapen las secciones
+  await nova.addStyleTag({ content: '#progressBar, nav { display: none !important; }' });
   for (const [nombre, sel] of secciones) {
+    // Las fotos del equipo viven en bidig, que bloquea a GitHub Actions
+    if (!conBidig && nombre === 'biblionova-equipo') continue;
     try {
       const el = nova.locator(sel).first();
       await el.scrollIntoViewIfNeeded();
+      await nova.waitForFunction((s) => [...document.querySelectorAll(s + ' img')].every((i) => i.complete && i.naturalWidth > 0), sel, { timeout: 15000 });
       await nova.waitForTimeout(800);
-      await el.screenshot({ path: `${OUT}/${nombre}.png`, timeout: 30000 });
+      const box = await el.boundingBox();
+      // Las secciones de pilar son muy largas: solo se guarda la parte superior
+      const alto = Math.min(box.height, 1100);
+      await nova.screenshot({ path: `${OUT}/${nombre}.png`, fullPage: true, clip: { x: box.x, y: box.y + (await nova.evaluate(() => window.scrollY)), width: box.width, height: alto } });
     } catch (e) { resultado.fallos.push(`${nombre}: ${e.message.split('\n')[0]}`); }
   }
 } catch (e) { resultado.fallos.push(`tablero: ${e.message.split('\n')[0]}`); }
