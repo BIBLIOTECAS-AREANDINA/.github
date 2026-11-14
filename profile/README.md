@@ -24,6 +24,24 @@ La [biblioteca digital](https://bidig.areandina.edu.co/) organiza sus servicios 
 | Alfabetización informacional | [Ruta-informacional-](https://github.com/BIBLIOTECAS-AREANDINA/Ruta-informacional-), [Seleciones-con-sentido](https://github.com/BIBLIOTECAS-AREANDINA/Seleciones-con-sentido) |
 
 
+## Sitios en vivo (GitHub Pages)
+
+Las direcciones antiguas `rekol08.github.io/...` ya no funcionan; usar estas. Un sitio que responde no equivale a una prueba funcional completa.
+
+| Sitio | Dirección |
+|---|---|
+| BiblioNova (tablero) | [bibliotecas-areandina.github.io/BIBLIONOVA](https://bibliotecas-areandina.github.io/BIBLIONOVA/) |
+| BibliometriX | [bibliotecas-areandina.github.io/BibliometriX](https://bibliotecas-areandina.github.io/BibliometriX/) |
+| Generador de índice H | [bibliotecas-areandina.github.io/Generador-ndice-H](https://bibliotecas-areandina.github.io/Generador-ndice-H/) |
+| AnalisisCuant | [bibliotecas-areandina.github.io/AnalisisCuant](https://bibliotecas-areandina.github.io/AnalisisCuant/) |
+| Ruta informacional | [bibliotecas-areandina.github.io/Ruta-informacional-](https://bibliotecas-areandina.github.io/Ruta-informacional-/) |
+| Aulas inteligentes (Gems) | [bibliotecas-areandina.github.io/aulas-inteligentes-gems](https://bibliotecas-areandina.github.io/aulas-inteligentes-gems/) |
+| Préstamo interbibliotecario | [bibliotecas-areandina.github.io/reunir-ill-system](https://bibliotecas-areandina.github.io/reunir-ill-system/) |
+| Digitk (variantes) | [bibliotecas-areandina.github.io/Digitek_sistema_repositorio](https://bibliotecas-areandina.github.io/Digitek_sistema_repositorio/) |
+| Librín (solo frontend) | [bibliotecas-areandina.github.io/chatbot](https://bibliotecas-areandina.github.io/chatbot/) |
+
+Sin Pages por diseño: `digitk-cargue-repositorio` y `Seleciones-con-sentido` son proyectos de Apps Script, y `koha-laboratorio` es privado.
+
 ## Punto de entrada
 
 - [BiblioNova: tablero y documentación](https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA)
