@@ -67,6 +67,19 @@ try {
 } catch (e) { resultado.fallos.push(`tablero: ${e.message.split('\n')[0]}`); }
 await nova.close();
 
+// Pantallazo de cada proyecto que tiene GitHub Pages (github.io sí es accesible desde Actions)
+mkdirSync('profile/assets/proyectos', { recursive: true });
+for (const p of datos.proyectos.filter((x) => x.pages)) {
+  const page = await ctx.newPage();
+  try {
+    await page.goto(`${datos.paginasBase}/${p.repo}/${p.capturaRuta ?? ""}`, { waitUntil: "load", timeout: 45000 });
+    await page.waitForLoadState('networkidle', { timeout: 10000 }).catch(() => {});
+    await page.waitForTimeout(1500);
+    await page.screenshot({ path: `profile/assets/proyectos/${p.repo}.png`, ...(p.capturaClip ? { clip: p.capturaClip } : {}) });
+  } catch (e) { resultado.fallos.push(`proyecto ${p.repo}: ${e.message.split('\n')[0]}`); }
+  await page.close();
+}
+
 // Banner (cifras tomadas del tablero; si falla, se omiten)
 const [pilares, iniciativas, proyectos, usuarios] = cifras;
 const stat = (v, t) => (v ? `<div class="s"><b>${v}</b><span>${t}</span></div>` : '');

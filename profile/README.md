@@ -90,21 +90,57 @@ Sin Pages por diseño: `digitk-cargue-repositorio` y `Seleciones-con-sentido` so
 
 - [BiblioNova: tablero y documentación](https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA)
 - [Tablero web](https://bibliotecas-areandina.github.io/BIBLIONOVA/)
+- [Las 30 iniciativas de BiblioNova documentadas en la biblioteca digital](https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA/blob/main/docs/iniciativas/README.md)
 - [Inventario y bitácora de centralización](https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA/blob/main/docs/CENTRALIZACION_2026-11-13.md)
 
 ## Proyectos públicos
 
-- [BIBLIONOVA](https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA): Tablero de 30 iniciativas (11 en desarrollo) y vínculo documental con CIBIC 2026; no identifica una VM CIBIC.
-- [Generador-ndice-H](https://github.com/BIBLIOTECAS-AREANDINA/Generador-ndice-H): HTML/JS; Excel/CSV, índice h/g/i10; SheetJS y Chart.js por CDN. Validación con datos ficticios pendiente.
-- [BibliometriX](https://github.com/BIBLIOTECAS-AREANDINA/BibliometriX): HTML/JS; Scopus/WoS y Chart.js; workflow Jekyll existente. Validación de indicadores pendiente.
-- [AnalisisCuant](https://github.com/BIBLIOTECAS-AREANDINA/AnalisisCuant): HTML/JS; estadísticas y Chart.js. Revisar aproximaciones antes de uso académico formal.
-- [digitk-cargue-repositorio](https://github.com/BIBLIOTECAS-AREANDINA/digitk-cargue-repositorio): Plantilla Apps Script con formulario y procesador; configuración productiva externa.
-- [Digitek_sistema_repositorio](https://github.com/BIBLIOTECAS-AREANDINA/Digitek_sistema_repositorio): Variantes v1/v2 Apps Script de Digitk; comparar con digitk-cargue-repositorio antes de consolidar.
-- [reunir-ill-system](https://github.com/BIBLIOTECAS-AREANDINA/reunir-ill-system): Apps Script para préstamo interbibliotecario y presentación web; producción declarada en README, no probada aquí.
-- [Ruta-informacional-](https://github.com/BIBLIOTECAS-AREANDINA/Ruta-informacional-): Guía de ciencia abierta; HTML/JS, QRCode.js y recursos externos.
-- [aulas-inteligentes-gems](https://github.com/BIBLIOTECAS-AREANDINA/aulas-inteligentes-gems): Instrucciones de 8 Gems y taller Areandina; no acredita creación o acceso a esos Gems.
-- [chatbot](https://github.com/BIBLIOTECAS-AREANDINA/chatbot): Librín: Express, Groq y n8n local; Pages no ejecuta el backend. Pruebas de servicio pendientes.
-- [Seleciones-con-sentido](https://github.com/BIBLIOTECAS-AREANDINA/Seleciones-con-sentido): Apps Script y panel bibliográfico sanitizados; falta vista Index según README. No desplegable completo todavía.
+<table>
+  <tr>
+    <td width="270" align="center"><a href="https://bibliotecas-areandina.github.io/BIBLIONOVA/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/proyectos/BIBLIONOVA.png" alt="BiblioNova (tablero)" width="260"></a></td>
+    <td><b>BiblioNova (tablero)</b> · <code>BIBLIONOVA</code><br>Tablero de 30 iniciativas (11 en desarrollo) y vínculo documental con CIBIC 2026; no identifica una VM CIBIC.<br><a href="https://bibliotecas-areandina.github.io/BIBLIONOVA/">Sitio</a> · <a href="https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA">Repositorio</a> · <a href="https://bidig.areandina.edu.co/main-home/biblionova/">En la biblioteca digital</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><a href="https://bibliotecas-areandina.github.io/Generador-ndice-H/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/proyectos/Generador-ndice-H.png" alt="Generador de índice H" width="260"></a></td>
+    <td><b>Generador de índice H</b> · <code>Generador-ndice-H</code><br>HTML/JS; Excel/CSV, índice h/g/i10; SheetJS y Chart.js por CDN. Validación con datos ficticios pendiente.<br><a href="https://bibliotecas-areandina.github.io/Generador-ndice-H/">Sitio</a> · <a href="https://github.com/BIBLIOTECAS-AREANDINA/Generador-ndice-H">Repositorio</a> · <a href="https://bidig.areandina.edu.co/main-home/cinar-rework-copy-nueva-version/">En la biblioteca digital</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><a href="https://bibliotecas-areandina.github.io/BibliometriX/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/proyectos/BibliometriX.png" alt="BibliometriX" width="260"></a></td>
+    <td><b>BibliometriX</b> · <code>BibliometriX</code><br>HTML/JS; Scopus/WoS y Chart.js; workflow Jekyll existente. Validación de indicadores pendiente.<br><a href="https://bibliotecas-areandina.github.io/BibliometriX/">Sitio</a> · <a href="https://github.com/BIBLIOTECAS-AREANDINA/BibliometriX">Repositorio</a> · <a href="https://bidig.areandina.edu.co/main-home/cinar-rework-copy-nueva-version/">En la biblioteca digital</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><a href="https://bibliotecas-areandina.github.io/AnalisisCuant/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/proyectos/AnalisisCuant.png" alt="AnalisisCuant" width="260"></a></td>
+    <td><b>AnalisisCuant</b> · <code>AnalisisCuant</code><br>HTML/JS; estadísticas y Chart.js. Revisar aproximaciones antes de uso académico formal.<br><a href="https://bibliotecas-areandina.github.io/AnalisisCuant/">Sitio</a> · <a href="https://github.com/BIBLIOTECAS-AREANDINA/AnalisisCuant">Repositorio</a> · <a href="https://bidig.areandina.edu.co/main-home/cinar-rework-copy-nueva-version/">En la biblioteca digital</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><sub>Sin sitio web<br>(Apps Script)</sub></td>
+    <td><b>Digitk · cargue</b> · <code>digitk-cargue-repositorio</code><br>Plantilla Apps Script con formulario y procesador; configuración productiva externa.<br><a href="https://github.com/BIBLIOTECAS-AREANDINA/digitk-cargue-repositorio">Repositorio</a> · <a href="https://digitk.areandina.edu.co/">Digitk</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><a href="https://bibliotecas-areandina.github.io/Digitek_sistema_repositorio/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/proyectos/Digitek_sistema_repositorio.png" alt="Digitk (variantes)" width="260"></a></td>
+    <td><b>Digitk (variantes)</b> · <code>Digitek_sistema_repositorio</code><br>Variantes v1/v2 Apps Script de Digitk; comparar con digitk-cargue-repositorio antes de consolidar.<br><a href="https://bibliotecas-areandina.github.io/Digitek_sistema_repositorio/">Sitio</a> · <a href="https://github.com/BIBLIOTECAS-AREANDINA/Digitek_sistema_repositorio">Repositorio</a> · <a href="https://digitk.areandina.edu.co/">Digitk</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><a href="https://bibliotecas-areandina.github.io/reunir-ill-system/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/proyectos/reunir-ill-system.png" alt="Préstamo interbibliotecario" width="260"></a></td>
+    <td><b>Préstamo interbibliotecario</b> · <code>reunir-ill-system</code><br>Apps Script para préstamo interbibliotecario y presentación web; producción declarada en README, no probada aquí.<br><a href="https://bibliotecas-areandina.github.io/reunir-ill-system/">Sitio</a> · <a href="https://github.com/BIBLIOTECAS-AREANDINA/reunir-ill-system">Repositorio</a> · <a href="https://bidig.areandina.edu.co/main-home/servicios/acuerdos-interbibliotecarios-rework/">En la biblioteca digital</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><a href="https://bibliotecas-areandina.github.io/Ruta-informacional-/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/proyectos/Ruta-informacional-.png" alt="Ruta informacional" width="260"></a></td>
+    <td><b>Ruta informacional</b> · <code>Ruta-informacional-</code><br>Guía de ciencia abierta; HTML/JS, QRCode.js y recursos externos.<br><a href="https://bibliotecas-areandina.github.io/Ruta-informacional-/">Sitio</a> · <a href="https://github.com/BIBLIOTECAS-AREANDINA/Ruta-informacional-">Repositorio</a> · <a href="https://bidig.areandina.edu.co/main-home/alfabetizacion-informacional/2851-2/">En la biblioteca digital</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><a href="https://bibliotecas-areandina.github.io/aulas-inteligentes-gems/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/proyectos/aulas-inteligentes-gems.png" alt="Aulas inteligentes (Gems)" width="260"></a></td>
+    <td><b>Aulas inteligentes (Gems)</b> · <code>aulas-inteligentes-gems</code><br>Instrucciones de 8 Gems y taller Areandina; no acredita creación o acceso a esos Gems.<br><a href="https://bibliotecas-areandina.github.io/aulas-inteligentes-gems/">Sitio</a> · <a href="https://github.com/BIBLIOTECAS-AREANDINA/aulas-inteligentes-gems">Repositorio</a> · <a href="https://bidig.areandina.edu.co/main-home/asistentes-de-ia/">En la biblioteca digital</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><a href="https://bibliotecas-areandina.github.io/chatbot/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/proyectos/chatbot.png" alt="Librín (solo frontend)" width="260"></a></td>
+    <td><b>Librín (solo frontend)</b> · <code>chatbot</code><br>Librín: Express, Groq y n8n local; Pages no ejecuta el backend. Pruebas de servicio pendientes.<br><a href="https://bibliotecas-areandina.github.io/chatbot/">Sitio</a> · <a href="https://github.com/BIBLIOTECAS-AREANDINA/chatbot">Repositorio</a> · <a href="https://bidig.areandina.edu.co/main-home/extension-cultural-rework/">En la biblioteca digital</a></td>
+  </tr>
+  <tr>
+    <td width="270" align="center"><sub>Sin sitio web<br>(Apps Script)</sub></td>
+    <td><b>Selecciones con sentido</b> · <code>Seleciones-con-sentido</code><br>Apps Script y panel bibliográfico sanitizados; falta vista Index según README. No desplegable completo todavía.<br><a href="https://github.com/BIBLIOTECAS-AREANDINA/Seleciones-con-sentido">Repositorio</a></td>
+  </tr>
+</table>
 
 ## Cómo colaborar
 

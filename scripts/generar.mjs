@@ -12,6 +12,20 @@ const sub = (t) => t.replace('{iniciativas}', cifras.iniciativas ?? '—').repla
 const esc = (t) => encodeURIComponent(t).replace(/-/g, '--');
 const badge = (label, msg, color, url) => `  <a href="${url}"><img alt="${label} ${msg}" src="https://img.shields.io/badge/${esc(label)}-${esc(msg)}-${color}?style=for-the-badge"></a>`;
 
+// Fila de la tabla de proyectos: imagen del sitio (si tiene Pages), descripción y enlaces
+const fila = (p) => {
+  const enlaces = [
+    p.pages ? `<a href="${pagesUrl(p.repo)}">Sitio</a>` : '',
+    `<a href="${repoUrl(p.repo)}">Repositorio</a>`,
+    p.bidig ? `<a href="${d.enlaces.bidig.replace(/\/$/, '')}${p.bidig}">En la biblioteca digital</a>` : '',
+    p.externo ? `<a href="${p.externo}">Digitk</a>` : '',
+  ].filter(Boolean).join(' · ');
+  const img = p.pages
+    ? `<a href="${pagesUrl(p.repo)}"><img src="${CAP.replace('/capturas', '/proyectos')}/${p.repo}.png" alt="${p.titulo}" width="260"></a>`
+    : '<sub>Sin sitio web<br>(Apps Script)</sub>';
+  return `  <tr>\n    <td width="270" align="center">${img}</td>\n    <td><b>${p.titulo}</b> · <code>${p.repo}</code><br>${sub(p.estado)}<br>${enlaces}</td>\n  </tr>`;
+};
+
 const redes = [...d.redes.map((r) => `<a href="${r.url}">${r.nombre}</a>`), `<a href="mailto:${d.correo}">Correo</a>`].join(' ·\n  ');
 const galeria = d.bidigPaginas.filter((p) => p.id !== 'bidig-home');
 const celdas = galeria.map((p) => `    <td align="center"><a href="${d.enlaces.bidig.replace(/\/$/, '')}${p.ruta}"><img src="${CAP}/${p.id}.png" alt="${p.titulo}"><br><sub><b>${p.titulo}</b></sub></a></td>`);
@@ -84,7 +98,9 @@ ${d.puntoEntrada.map((e) => `- [${e.texto}](${e.url})`).join('\n')}
 
 ## Proyectos públicos
 
-${d.proyectos.map((p) => `- [${p.repo}](${repoUrl(p.repo)}): ${sub(p.estado)}`).join('\n')}
+<table>
+${d.proyectos.map(fila).join('\n')}
+</table>
 
 ## Cómo colaborar
 
