@@ -57,13 +57,13 @@
     { "texto": "Inventario y bitácora de centralización", "url": "https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA/blob/main/docs/CENTRALIZACION_2026-11-13.md" }
   ],
   "equipo": [
-    { "nombre": "Andrea Pumarejo", "rol": "Coordinadora" },
-    { "nombre": "Rosa Fermina", "rol": "Subdirectora de Bibliotecas Areandina" },
-    { "nombre": "Cristian Cardenas", "rol": "Auxiliar" },
-    { "nombre": "William Saboya", "rol": "Analista" },
-    { "nombre": "Alejandro Labrada", "rol": "Analista" },
-    { "nombre": "Manuela Londoño", "rol": "Auxiliar de Biblioteca · Pereira" },
-    { "nombre": "Miguel Fernando Romero", "rol": "Auxiliar de Biblioteca · Bogotá" }
+    { "nombre": "Andrea Pumarejo", "rol": "Coordinadora", "foto": "https://bidig.areandina.edu.co/wp-content/uploads/2026/08/Andrea-coordinadora.png" },
+    { "nombre": "Rosa Fermina", "rol": "Subdirectora de Bibliotecas Areandina", "foto": "https://bidig.areandina.edu.co/wp-content/uploads/2025/12/Rosa-Fermina.png" },
+    { "nombre": "Cristian Cardenas", "rol": "Auxiliar", "foto": "https://bidig.areandina.edu.co/wp-content/uploads/2025/12/Cristian.png" },
+    { "nombre": "William Saboya", "rol": "Analista", "foto": "https://bidig.areandina.edu.co/wp-content/uploads/2025/12/William-Sayoya.png" },
+    { "nombre": "Alejandro Labrada", "rol": "Analista", "foto": "https://bidig.areandina.edu.co/wp-content/uploads/2025/12/Alejandro-Labrada.png" },
+    { "nombre": "Manuela Londoño", "rol": "Auxiliar de Biblioteca · Pereira", "foto": "https://bidig.areandina.edu.co/wp-content/uploads/2025/12/Manuela-Londono.png" },
+    { "nombre": "Miguel Fernando Romero", "rol": "Auxiliar de Biblioteca · Bogotá", "foto": "https://bidig.areandina.edu.co/wp-content/uploads/2026/10/Miguel-Fernando-Romero-Saavedra.png" }
   ],
   "colaborar": [
     "Revisar el README y las instrucciones del proyecto antes de editar. Registrar objetivo, alcance y evidencia.",
