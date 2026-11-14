@@ -19,6 +19,8 @@ jobs:
       - run: npm install
       - run: npx playwright install --with-deps chromium
       - run: npm run capturar
+        env:
+          CAPTURAR_BIDIG: "0"
       - name: Guardar cambios
         run: |
           git config user.name "github-actions[bot]"

@@ -110,7 +110,7 @@ La documentación diferencia resultados comprobados, antecedentes y pendientes. 
 
 ## Cómo se actualizan las capturas
 
-Las imágenes de esta página (`profile/assets/capturas`) se regeneran solas cada lunes con el flujo [Actualizar capturas del perfil](https://github.com/BIBLIOTECAS-AREANDINA/.github/actions/workflows/capturas.yml), que toma pantallazos de la biblioteca digital y del tablero y recalcula las cifras del banner. También se puede lanzar a mano desde la pestaña Actions o con `npm install && npx playwright install chromium && npm run capturar`.
+Las capturas del tablero BiblioNova y el banner (`profile/assets/capturas`) se regeneran solas cada lunes con el flujo [Actualizar capturas del perfil](https://github.com/BIBLIOTECAS-AREANDINA/.github/actions/workflows/capturas.yml), que recalcula las cifras del banner. Las capturas de la biblioteca digital (`bidig-*.png`) no se pueden tomar desde GitHub porque el firewall institucional bloquea sus servidores; se actualizan desde un equipo de la universidad con `npm install && npx playwright install chromium && npm run capturar`.
 
 ## Alianzas y reconocimientos
 
