@@ -1,15 +1,50 @@
-<p align="center"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/logo-areandina.png" alt="Bibliotecas Areandina" width="260"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/banner.png" alt="Bibliotecas Areandina: biblioteca digital, innovación y repositorio" width="100%"></p>
 
-<h1 align="center">Bibliotecas Areandina</h1>
 <p align="center"><em>Espacio institucional de código, guías y documentación de proyectos tecnológicos de las Bibliotecas de la Fundación Universitaria del Área Andina.</em></p>
 
 <p align="center">
   <a href="https://bidig.areandina.edu.co/"><img alt="Biblioteca digital" src="https://img.shields.io/badge/Biblioteca%20digital-bidig-5D9A1F?style=for-the-badge"></a>
+  <a href="https://bibliotecas-areandina.github.io/BIBLIONOVA/"><img alt="BiblioNova" src="https://img.shields.io/badge/Tablero-BiblioNova-9E1350?style=for-the-badge"></a>
   <a href="https://digitk.areandina.edu.co/"><img alt="Repositorio" src="https://img.shields.io/badge/Repositorio-Digitk-D4196B?style=for-the-badge"></a>
-  <a href="https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA"><img alt="BiblioNova" src="https://img.shields.io/badge/Tablero-BiblioNova-9E1350?style=for-the-badge"></a>
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/home.jpg" alt="Home de la biblioteca digital con buscador y accesos rápidos" width="720"></p>
+<p align="center">
+  <a href="https://www.facebook.com/BibliotecasAreandina/">Facebook</a> ·
+  <a href="https://www.instagram.com/bibliotecas_areandina/">Instagram</a> ·
+  <a href="https://www.youtube.com/@bibliotecasareandina2251">YouTube</a> ·
+  <a href="https://www.tiktok.com/@bibliotecas_areandina3">TikTok</a> ·
+  <a href="mailto:bibliotecasareandina@areandina.edu.co">Correo</a>
+</p>
+
+## La biblioteca digital
+
+Un solo punto de entrada para buscar en el catálogo, el repositorio, las revistas y las bases de datos, con accesos a Intelectus (asistentes de IA), BiblioClick, CINAR, reserva de espacios y experiencias de aprendizaje.
+
+<p align="center"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-home.png" alt="Home de la biblioteca digital" width="760"></p>
+
+<table>
+  <tr>
+    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/asistentes-de-ia/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-intelectus.png" alt="Intelectus"><br><sub><b>Intelectus</b> · asistentes de IA</sub></a></td>
+    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/inicio-todas-las-facultades-micro-facultades/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-biblioclick.png" alt="BiblioClick"><br><sub><b>BiblioClick</b> · por facultad</sub></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/cinar-rework-copy-nueva-version/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-cinar.png" alt="CINAR"><br><sub><b>CINAR</b></sub></a></td>
+    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/servicios/servicios-basicos/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-servicios.png" alt="Servicios"><br><sub><b>Servicios</b> básicos</sub></a></td>
+  </tr>
+</table>
+
+## BiblioNova: el tablero
+
+El tablero que se presentó en CIBIC 2026 y se sigue usando en presentaciones sobre BiblioNova. Organiza las iniciativas en tres pilares: experiencia al usuario, gestión institucional y academia.
+
+<p align="center"><a href="https://bibliotecas-areandina.github.io/BIBLIONOVA/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/biblionova-tablero.png" alt="Tablero BiblioNova" width="760"></a></p>
+
+<table>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/biblionova-equipo.png" alt="Equipo de trabajo"><br><sub>Equipo de trabajo</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/biblionova-academia.png" alt="Pilar Academia"><br><sub>Pilar Academia</sub></td>
+  </tr>
+</table>
 
 ## De la biblioteca digital a los proyectos
 
@@ -72,6 +107,10 @@ Sin Pages por diseño: `digitk-cargue-repositorio` y `Seleciones-con-sentido` so
 6. No modificar Koha de producción como parte de pruebas o documentación. Coordinar cualquier trabajo de laboratorio con el responsable activo.
 
 La documentación diferencia resultados comprobados, antecedentes y pendientes. Las responsabilidades deben resolverse con identidades verificadas; no se deducen cargos ni usuarios por similitud de nombres.
+
+## Cómo se actualizan las capturas
+
+Las imágenes de esta página (`profile/assets/capturas`) se regeneran solas cada lunes con el flujo [Actualizar capturas del perfil](https://github.com/BIBLIOTECAS-AREANDINA/.github/actions/workflows/capturas.yml), que toma pantallazos de la biblioteca digital y del tablero y recalcula las cifras del banner. También se puede lanzar a mano desde la pestaña Actions o con `npm install && npx playwright install chromium && npm run capturar`.
 
 ## Alianzas y reconocimientos
 
