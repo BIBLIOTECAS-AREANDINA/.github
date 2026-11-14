@@ -28,13 +28,17 @@ async function cerrarAvisos(page) {
   }
 }
 
-for (const [nombre, ruta] of paginasBidig) {
+// bidig bloquea las IP de GitHub Actions: allí se omite (CAPTURAR_BIDIG=0) y se captura desde un equipo institucional.
+const conBidig = process.env.CAPTURAR_BIDIG !== "0";
+for (const [nombre, ruta] of conBidig ? paginasBidig : []) {
   const page = await ctx.newPage();
   try {
     await page.goto(BIDIG + ruta, { waitUntil: 'networkidle', timeout: 60000 });
     await page.waitForTimeout(1500);
     await cerrarAvisos(page);
     await page.waitForTimeout(500);
+    const texto = await page.locator('body').innerText().catch(() => '');
+    if (/Web Page Blocked|Access Denied/i.test(texto)) throw new Error('página bloqueada; se conserva la captura anterior');
     await page.screenshot({ path: `${OUT}/${nombre}.png` });
   } catch (e) { resultado.fallos.push(`${nombre}: ${e.message.split('\n')[0]}`); }
   await page.close();
