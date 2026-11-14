@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 12 * * 1"   # lunes 12:00 UTC
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["datos/centro.json"]
 
 permissions:
   contents: write
@@ -18,13 +21,15 @@ jobs:
           node-version: 22
       - run: npm install
       - run: npx playwright install --with-deps chromium
+      # bidig bloquea las IP de GitHub: aquí solo se actualizan el tablero y el banner
       - run: npm run capturar
         env:
           CAPTURAR_BIDIG: "0"
+      - run: npm run generar
       - name: Guardar cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/assets/capturas
-          git diff --cached --quiet || git commit -m "Actualiza capturas del perfil"
+          git add profile datos
+          git diff --cached --quiet || git commit -m "Actualiza capturas, cifras y README del perfil"
           git push

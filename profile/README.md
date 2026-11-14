@@ -3,9 +3,9 @@
 <p align="center"><em>Espacio institucional de código, guías y documentación de proyectos tecnológicos de las Bibliotecas de la Fundación Universitaria del Área Andina.</em></p>
 
 <p align="center">
-  <a href="https://bidig.areandina.edu.co/"><img alt="Biblioteca digital" src="https://img.shields.io/badge/Biblioteca%20digital-bidig-5D9A1F?style=for-the-badge"></a>
-  <a href="https://bibliotecas-areandina.github.io/BIBLIONOVA/"><img alt="BiblioNova" src="https://img.shields.io/badge/Tablero-BiblioNova-9E1350?style=for-the-badge"></a>
-  <a href="https://digitk.areandina.edu.co/"><img alt="Repositorio" src="https://img.shields.io/badge/Repositorio-Digitk-D4196B?style=for-the-badge"></a>
+  <a href="https://bidig.areandina.edu.co/"><img alt="Biblioteca digital bidig" src="https://img.shields.io/badge/Biblioteca%20digital-bidig-5D9A1F?style=for-the-badge"></a>
+  <a href="https://bibliotecas-areandina.github.io/BIBLIONOVA/"><img alt="Tablero BiblioNova" src="https://img.shields.io/badge/Tablero-BiblioNova-9E1350?style=for-the-badge"></a>
+  <a href="https://digitk.areandina.edu.co/"><img alt="Repositorio Digitk" src="https://img.shields.io/badge/Repositorio-Digitk-D4196B?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -24,12 +24,12 @@ Un solo punto de entrada para buscar en el catálogo, el repositorio, las revist
 
 <table>
   <tr>
-    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/asistentes-de-ia/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-intelectus.png" alt="Intelectus"><br><sub><b>Intelectus</b> · asistentes de IA</sub></a></td>
-    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/inicio-todas-las-facultades-micro-facultades/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-biblioclick.png" alt="BiblioClick"><br><sub><b>BiblioClick</b> · por facultad</sub></a></td>
+    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/asistentes-de-ia/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-intelectus.png" alt="Intelectus · asistentes de IA"><br><sub><b>Intelectus · asistentes de IA</b></sub></a></td>
+    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/inicio-todas-las-facultades-micro-facultades/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-biblioclick.png" alt="BiblioClick · por facultad"><br><sub><b>BiblioClick · por facultad</b></sub></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://bidig.areandina.edu.co/main-home/cinar-rework-copy-nueva-version/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-cinar.png" alt="CINAR"><br><sub><b>CINAR</b></sub></a></td>
-    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/servicios/servicios-basicos/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-servicios.png" alt="Servicios"><br><sub><b>Servicios</b> básicos</sub></a></td>
+    <td align="center"><a href="https://bidig.areandina.edu.co/main-home/servicios/servicios-basicos/"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/capturas/bidig-servicios.png" alt="Servicios básicos"><br><sub><b>Servicios básicos</b></sub></a></td>
   </tr>
 </table>
 
@@ -46,6 +46,16 @@ El tablero que se presentó en CIBIC 2026 y se sigue usando en presentaciones so
   </tr>
 </table>
 
+## Equipo
+
+- [Andrea Pumarejo](https://bidig.areandina.edu.co/main-home/quienes-somos-2/colaboradores-rework/) · Coordinadora
+- [Rosa Fermina](https://bidig.areandina.edu.co/main-home/quienes-somos-2/colaboradores-rework/) · Subdirectora de Bibliotecas Areandina
+- [Cristian Cardenas](https://bidig.areandina.edu.co/main-home/quienes-somos-2/colaboradores-rework/) · Auxiliar
+- [William Saboya](https://bidig.areandina.edu.co/main-home/quienes-somos-2/colaboradores-rework/) · Analista
+- [Alejandro Labrada](https://bidig.areandina.edu.co/main-home/quienes-somos-2/colaboradores-rework/) · Analista
+- [Manuela Londoño](https://bidig.areandina.edu.co/main-home/quienes-somos-2/colaboradores-rework/) · Auxiliar de Biblioteca · Pereira
+- [Miguel Fernando Romero](https://bidig.areandina.edu.co/main-home/quienes-somos-2/colaboradores-rework/) · Auxiliar de Biblioteca · Bogotá
+
 ## De la biblioteca digital a los proyectos
 
 La [biblioteca digital](https://bidig.areandina.edu.co/) organiza sus servicios en accesos rápidos. Esta tabla indica con qué proyecto de este espacio se relaciona cada uno; es una orientación, no una prueba de integración.
@@ -58,7 +68,6 @@ La [biblioteca digital](https://bidig.areandina.edu.co/) organiza sus servicios 
 | Acuerdos interbibliotecarios | [reunir-ill-system](https://github.com/BIBLIOTECAS-AREANDINA/reunir-ill-system) |
 | Alfabetización informacional | [Ruta-informacional-](https://github.com/BIBLIOTECAS-AREANDINA/Ruta-informacional-), [Seleciones-con-sentido](https://github.com/BIBLIOTECAS-AREANDINA/Seleciones-con-sentido) |
 
-
 ## Sitios en vivo (GitHub Pages)
 
 Las direcciones antiguas `rekol08.github.io/...` ya no funcionan; usar estas. Un sitio que responde no equivale a una prueba funcional completa.
@@ -66,13 +75,13 @@ Las direcciones antiguas `rekol08.github.io/...` ya no funcionan; usar estas. Un
 | Sitio | Dirección |
 |---|---|
 | BiblioNova (tablero) | [bibliotecas-areandina.github.io/BIBLIONOVA](https://bibliotecas-areandina.github.io/BIBLIONOVA/) |
-| BibliometriX | [bibliotecas-areandina.github.io/BibliometriX](https://bibliotecas-areandina.github.io/BibliometriX/) |
 | Generador de índice H | [bibliotecas-areandina.github.io/Generador-ndice-H](https://bibliotecas-areandina.github.io/Generador-ndice-H/) |
+| BibliometriX | [bibliotecas-areandina.github.io/BibliometriX](https://bibliotecas-areandina.github.io/BibliometriX/) |
 | AnalisisCuant | [bibliotecas-areandina.github.io/AnalisisCuant](https://bibliotecas-areandina.github.io/AnalisisCuant/) |
+| Digitk (variantes) | [bibliotecas-areandina.github.io/Digitek_sistema_repositorio](https://bibliotecas-areandina.github.io/Digitek_sistema_repositorio/) |
+| Préstamo interbibliotecario | [bibliotecas-areandina.github.io/reunir-ill-system](https://bibliotecas-areandina.github.io/reunir-ill-system/) |
 | Ruta informacional | [bibliotecas-areandina.github.io/Ruta-informacional-](https://bibliotecas-areandina.github.io/Ruta-informacional-/) |
 | Aulas inteligentes (Gems) | [bibliotecas-areandina.github.io/aulas-inteligentes-gems](https://bibliotecas-areandina.github.io/aulas-inteligentes-gems/) |
-| Préstamo interbibliotecario | [bibliotecas-areandina.github.io/reunir-ill-system](https://bibliotecas-areandina.github.io/reunir-ill-system/) |
-| Digitk (variantes) | [bibliotecas-areandina.github.io/Digitek_sistema_repositorio](https://bibliotecas-areandina.github.io/Digitek_sistema_repositorio/) |
 | Librín (solo frontend) | [bibliotecas-areandina.github.io/chatbot](https://bibliotecas-areandina.github.io/chatbot/) |
 
 Sin Pages por diseño: `digitk-cargue-repositorio` y `Seleciones-con-sentido` son proyectos de Apps Script, y `koha-laboratorio` es privado.
@@ -85,7 +94,7 @@ Sin Pages por diseño: `digitk-cargue-repositorio` y `Seleciones-con-sentido` so
 
 ## Proyectos públicos
 
-- [BIBLIONOVA](https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA): Tablero de 12 proyectos y vínculo documental con CIBIC 2026; no identifica una VM CIBIC.
+- [BIBLIONOVA](https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA): Tablero de 30 iniciativas (11 en desarrollo) y vínculo documental con CIBIC 2026; no identifica una VM CIBIC.
 - [Generador-ndice-H](https://github.com/BIBLIOTECAS-AREANDINA/Generador-ndice-H): HTML/JS; Excel/CSV, índice h/g/i10; SheetJS y Chart.js por CDN. Validación con datos ficticios pendiente.
 - [BibliometriX](https://github.com/BIBLIOTECAS-AREANDINA/BibliometriX): HTML/JS; Scopus/WoS y Chart.js; workflow Jekyll existente. Validación de indicadores pendiente.
 - [AnalisisCuant](https://github.com/BIBLIOTECAS-AREANDINA/AnalisisCuant): HTML/JS; estadísticas y Chart.js. Revisar aproximaciones antes de uso académico formal.
@@ -108,9 +117,11 @@ Sin Pages por diseño: `digitk-cargue-repositorio` y `Seleciones-con-sentido` so
 
 La documentación diferencia resultados comprobados, antecedentes y pendientes. Las responsabilidades deben resolverse con identidades verificadas; no se deducen cargos ni usuarios por similitud de nombres.
 
-## Cómo se actualizan las capturas
+## Cómo se actualiza esta página
 
-Las capturas del tablero BiblioNova y el banner (`profile/assets/capturas`) se regeneran solas cada lunes con el flujo [Actualizar capturas del perfil](https://github.com/BIBLIOTECAS-AREANDINA/.github/actions/workflows/capturas.yml), que recalcula las cifras del banner. Las capturas de la biblioteca digital (`bidig-*.png`) no se pueden tomar desde GitHub porque el firewall institucional bloquea sus servidores; se actualizan desde un equipo de la universidad con `npm install && npx playwright install chromium && npm run capturar`.
+Todo sale de un solo archivo, [`datos/centro.json`](https://github.com/BIBLIOTECAS-AREANDINA/.github/blob/main/datos/centro.json): nombre, descripción, redes, correo, equipo, proyectos y alianzas. Al editarlo y ejecutar `npm run generar` se rehace este README; `npm run sincronizar` aplica la misma información a la descripción de la organización y a los repositorios.
+
+Las cifras (iniciativas, proyectos, usuarios) se leen del tablero BiblioNova y se guardan en `datos/cifras.json`. El flujo [Actualizar capturas del perfil](https://github.com/BIBLIOTECAS-AREANDINA/.github/actions/workflows/capturas.yml) corre cada lunes para el tablero y el banner. Las capturas de la biblioteca digital y de Equipo (`bidig-*.png`, `biblionova-equipo.png`) no se pueden tomar desde GitHub porque el firewall institucional bloquea sus servidores; se actualizan desde un equipo de la universidad con `npm install && npx playwright install chromium && npm run actualizar`.
 
 ## Alianzas y reconocimientos
 
