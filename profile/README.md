@@ -1,6 +1,28 @@
-# Bibliotecas Areandina
+<p align="center"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/logo-areandina.png" alt="Bibliotecas Areandina" width="260"></p>
 
-Espacio institucional de código, guías y documentación de proyectos tecnológicos de las Bibliotecas de la Fundación Universitaria del Área Andina.
+<h1 align="center">Bibliotecas Areandina</h1>
+<p align="center"><em>Espacio institucional de código, guías y documentación de proyectos tecnológicos de las Bibliotecas de la Fundación Universitaria del Área Andina.</em></p>
+
+<p align="center">
+  <a href="https://bidig.areandina.edu.co/"><img alt="Biblioteca digital" src="https://img.shields.io/badge/Biblioteca%20digital-bidig-5D9A1F?style=for-the-badge"></a>
+  <a href="https://digitk.areandina.edu.co/"><img alt="Repositorio" src="https://img.shields.io/badge/Repositorio-Digitk-D4196B?style=for-the-badge"></a>
+  <a href="https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA"><img alt="BiblioNova" src="https://img.shields.io/badge/Tablero-BiblioNova-9E1350?style=for-the-badge"></a>
+</p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/home.jpg" alt="Home de la biblioteca digital con buscador y accesos rápidos" width="720"></p>
+
+## De la biblioteca digital a los proyectos
+
+La [biblioteca digital](https://bidig.areandina.edu.co/) organiza sus servicios en accesos rápidos. Esta tabla indica con qué proyecto de este espacio se relaciona cada uno; es una orientación, no una prueba de integración.
+
+| Acceso en la biblioteca digital | Proyecto relacionado |
+|---|---|
+| Intelectus (asistentes de IA) | [aulas-inteligentes-gems](https://github.com/BIBLIOTECAS-AREANDINA/aulas-inteligentes-gems), [chatbot](https://github.com/BIBLIOTECAS-AREANDINA/chatbot) |
+| Repositorio (Digitk) | [digitk-cargue-repositorio](https://github.com/BIBLIOTECAS-AREANDINA/digitk-cargue-repositorio), [Digitek_sistema_repositorio](https://github.com/BIBLIOTECAS-AREANDINA/Digitek_sistema_repositorio) |
+| CINAR e indicadores | [BibliometriX](https://github.com/BIBLIOTECAS-AREANDINA/BibliometriX), [Generador-ndice-H](https://github.com/BIBLIOTECAS-AREANDINA/Generador-ndice-H), [AnalisisCuant](https://github.com/BIBLIOTECAS-AREANDINA/AnalisisCuant) |
+| Acuerdos interbibliotecarios | [reunir-ill-system](https://github.com/BIBLIOTECAS-AREANDINA/reunir-ill-system) |
+| Alfabetización informacional | [Ruta-informacional-](https://github.com/BIBLIOTECAS-AREANDINA/Ruta-informacional-), [Seleciones-con-sentido](https://github.com/BIBLIOTECAS-AREANDINA/Seleciones-con-sentido) |
+
 
 ## Punto de entrada
 
@@ -32,3 +54,12 @@ Espacio institucional de código, guías y documentación de proyectos tecnológ
 6. No modificar Koha de producción como parte de pruebas o documentación. Coordinar cualquier trabajo de laboratorio con el responsable activo.
 
 La documentación diferencia resultados comprobados, antecedentes y pendientes. Las responsabilidades deben resolverse con identidades verificadas; no se deducen cargos ni usuarios por similitud de nombres.
+
+## Alianzas y reconocimientos
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/sello-asouniesca.png" height="70" alt="ASOUNIESCA">
+  <img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/sello-kiwa.png" height="70" alt="KIWA">
+  <img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/sello-agris.png" height="70" alt="FAO AGRIS">
+  <img src="https://raw.githubusercontent.com/BIBLIOTECAS-AREANDINA/.github/main/profile/assets/sello-sena.png" height="70" alt="SENA">
+</p>
